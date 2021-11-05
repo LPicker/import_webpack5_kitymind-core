@@ -20,17 +20,20 @@ window.onload = evt => {
       },
       children: [
         {
-          id: "1-1",
-          text: "分支主题",
-          dir: "right",
-          layout: null,
+          data: {
+            id: "1-1",
+            text: "分支主题",
+            dir: "right",
+            layout: null,
+          },
         },
-
         {
-          id: "1-2",
-          text: "分支主题",
-          dir: "right",
-          layout: null,
+          data: {
+            id: "1-2",
+            text: "分支主题",
+            dir: "right",
+            layout: null,
+          },
         },
       ],
     },
